@@ -11,15 +11,21 @@ button {
 }
 .buttons {
     display: block;
-    margin: 0 27.2vw;
+    margin: 0 26.5vw;
 }
 img {
     width: 60vw;
     margin: 0 20vw;
     border-radius: 5vw;
 }
+body {
+    margin: 0;
+}
 nav {
     font-size: 24px;
+    background-color: lightgreen;
+    padding: 1vw 1vw 0 1vw;
+    margin-bottom: 1vw;
 }
 .switch {
   position: relative;
@@ -40,7 +46,7 @@ nav {
   right: 0;
   bottom: 20;
   border-radius: 34px;
-  background-color: #ccc;
+  background-color: #69f;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -57,10 +63,10 @@ nav {
   transition: .4s;
 }
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #f89;
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #f89;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
