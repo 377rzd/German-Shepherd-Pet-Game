@@ -10,5 +10,10 @@ button {
 }
 .buttons {
     display: block;
-    margin: auto;
+    margin: 0 27.2vw;
+}
+img {
+    width: 60vw;
+    margin: 0 20vw;
+    border-radius: 5vw;
 }
