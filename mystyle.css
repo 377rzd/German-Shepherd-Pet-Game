@@ -7,6 +7,7 @@ button {
     padding: 2vw;
     width: 20vw;
     margin: 1vw;
+    font-size: 3vw;
 }
 .buttons {
     display: block;
