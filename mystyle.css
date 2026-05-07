@@ -1,12 +1,9 @@
-body {
-    font-family: Arial;
-}
 button {
     background-color: lightgreen;
     border-style: solid;
     border-color: green;
     border-width: 0.5vw;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     padding: 2vw;
     width: 20vw;
     margin: 1vw;
