@@ -1,12 +1,16 @@
 <head>
     <title>The Pet Project</title>
     <link rel="stylesheet" href="https://377rzd.github.io/German-Shepherd-Pet-Game/mystyle.css">
+    <script src="https://377rzd.github.io/German-Shepherd-Pet-Game/script.js"></script>
 </head>
 <body>
     <nav>
         <t>The German Shepherd Pet Project</t>
-        <t>Name: </t>
-        <t>Input Placeholder</t>
+        <label for="name">Name: </label>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" oninput="localStorage.setItem('name', this.value); console.log('New Name is ' + this.value);">
+        </form>
         <t>Male</t>
         <label class="switch">
             <input type="checkbox">
@@ -14,7 +18,7 @@
         </label>
         <t>Female</t>
     </nav>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/500px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg">
+    <img src="https://377rzd.github.io/German-Shepherd-Pet-Game/assets/dog-h-c-l.png">
     <br>
     <div class="buttons">
         <button>Feed</button>
