@@ -2,8 +2,8 @@ button {
     background-color: lightgreen;
     border-style: solid;
     border-color: green;
-    border-width: 5pt 5pt;
-    border-radius: 25%;
+    border-width: 0.5vw;
+    border-radius: 0.5vw;
     padding: 2vw;
     width: 20vw;
     margin: 1vw;
