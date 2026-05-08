@@ -14,10 +14,14 @@ button {
     margin: 0 26.5vw;
 }
 img {
-    width: 60vw;
+    width: 58vw;
     margin: 0 20vw;
+    border-style: solid;
+    border-color: #aca;
+    border-width: 1vw;
     border-radius: 5vw;
     image-rendering: pixelated;
+    background-color: #9a9;
 }
 form {
     display: inline;
