@@ -2,19 +2,19 @@
 function checkState() {
   var dogState = "https://377rzd.github.io/German-Shepherd-Pet-Game/assets/dog-"
   if (hunger = 0) {
-    var dogState += "h-";
+    var dogState = dogState + "h-";
   } else {
-    var dogState += "f-";
+    var dogState = dogState + "f-";
   }
   if (dirty = 0) {
-    var dogState += "d-";
+    var dogState = dogState + "d-";
   } else {
-    var dogState += "c-";
+    var dogState = dogState + "c-";
   }
   if (tired = 0) {
-    var dogState += "t.png";
+    var dogState = dogState + "t.png";
   } else {
-    var dogState += "a.png";
+    var dogState = dogState + "a.png";
   }
   document.getElementById("dog").src = dogState;
 }
