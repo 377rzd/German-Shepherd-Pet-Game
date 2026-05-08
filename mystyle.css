@@ -17,6 +17,10 @@ img {
     width: 60vw;
     margin: 0 20vw;
     border-radius: 5vw;
+    image-rendering: pixelated;
+}
+form {
+    display: inline;
 }
 body {
     margin: 0;
