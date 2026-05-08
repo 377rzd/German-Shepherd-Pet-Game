@@ -24,18 +24,21 @@ if (localStorage.getItem("firstPlay") == false) {
   var dirty = localStorage.getItem("dirty");
   var bored = localStorage.getItem("bored");
   var tired = localStorage.getItem("tired");
+  var light = localStorage.getItem("light");
   var isFemale = localStorage.getItem("isFemale");
   checkState();
 } else {
   var hunger = 10;
-  var dirty = 30;
+  var dirty = 15;
   var bored = 5;
-  var tired = 60;
+  var tired = 20;
+  var light = true;
   var isFemale = false;
   localStorage.setItem("hunger", 10);
   localStorage.setItem("dirty", 30);
   localStorage.setItem("bored", 5);
   localStorage.setItem("tired", 60);
+  localStorage.setItem("light", true);
   localStorage.setItem("isFemale", false);
   localStorage.setItem("firstPlay", false);
 }
