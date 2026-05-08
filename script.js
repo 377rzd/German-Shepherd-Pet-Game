@@ -1,3 +1,4 @@
+// Checks if the game has been opened before, setting and saving game variables
 if (localStorage.getItem("firstPlay") == false) {
   var hunger = localStorage.getItem("hunger");
   var dirty = localStorage.getItem("dirty");
@@ -17,3 +18,8 @@ if (localStorage.getItem("firstPlay") == false) {
   localStorage.setItem("isFemale", false);
   localStorage.setItem("firstPlay", false);
 }
+/* main loop statement
+while (true) {
+  localStorage.setItem("lastPlayed", Temporal.Now.plainDateTimeISO());
+}
+*/
