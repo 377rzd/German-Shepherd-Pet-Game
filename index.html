@@ -17,14 +17,14 @@
         </label>
         <t>Female</t>
     </nav>
-    <img>
+    <img id="dog">
     <br>
     <div class="buttons">
-        <button>Feed</button>
-        <button>Clean</button>
+        <button onclick="hunger = 10; checkState();">Feed</button>
+        <button onclick="dirty = 15; checkState();">Clean</button>
     </div>
     <div class="buttons">
-        <button>Light</button>
-        <button>Play</button>
+        <button onclick="light = true; checkState();">Light</button>
+        <button onclick="bored = 5; checkState();">Play</button>
     </div>
 </body>
