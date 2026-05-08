@@ -8,7 +8,7 @@
         <t>The German Shepherd Pet Project    </t>
         <form>
             <label for="name">Name: </label>
-            <input type="text" id="name" name="name" oninput="localStorage.setItem('name', this.value); console.log('New Name is ' + this.value);">
+            <input type="text" id="name" name="name" onload="this.value = localStorage.getItem('name');" oninput="localStorage.setItem('name', this.value); console.log('New Name is ' + this.value);">
         </form>
         <t>Male</t>
         <label class="switch">
